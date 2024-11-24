@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+
+
+
+    <!-- Pseudo -->
+    <TextView
+        android:id="@+id/text_view_location_pseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pseudo"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:paddingBottom="16dp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <!-- Edit Button -->
+        <Button
+            android:id="@+id/button_edit_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF9800"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Delete Button -->
+        <Button
+            android:id="@+id/button_delete_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#F44336"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Send SMS Button -->
+        <Button
+            android:id="@+id/button_send_sms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send SMS"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3F51B5" />
+    </LinearLayout>
+</LinearLayout>
+
